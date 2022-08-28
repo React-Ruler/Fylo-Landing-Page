@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="hero is-white is-fullheight-with-navbar">
+      <div class="hero-head">
+        <nav class="navbar is-transparent">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                <img src="assets/images/logo.svg" alt="Fylo" />
+              </a>
+              <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroA" class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item is-active"> Features </a>
+                <a class="navbar-item"> Team </a>
+                <a class="navbar-item"> Sign In </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns">
+            <div class="column mt-6 pt-6">
+              <p class="title">
+                All your files in one secure location, accessible anywhere.
+              </p>
+              <p>
+                Fylo stores your most important files in one secure location.
+                Access them wherever you need, share and collaborate with
+                friends, family, and co-workers.
+              </p>
+              <div class="field is-grouped pt-5">
+                <p class="control is-expanded">
+                  <input
+                    class="input is-normal"
+                    type="text"
+                    placeholder="Enter your email..."
+                  />
+                </p>
+                <p class="control">
+                  <a class="button is-link"> Get Started</a>
+                </p>
+              </div>
+            </div>
+            <div class="column">
+              <figure class="image">
+                <img src="assets/images/illustration-1.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section is-medium has-background-image">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <h1 class="title">Stay productive, wherever you are</h1>
+            <h2 class="subtitle">
+              Never let location be an issue when accessing your files. Fylo has
+              you covered for all of your file storage needs.
+            </h2>
+            <h2 class="subtitle">
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required!
+            </h2>
+            <p>See how Fylo works</p>
+
+            <div class="box has-background-white has-text-grey-dark">
+              <p>
+                <span class="font-bold has-text-primary is-size-5"> “ </span>
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+                <span class="font-bold has-text-primary is-size-5"> ” </span>
+              </p>
+              <div
+                class="is-flex is-align-items-center is-justify-content-start mt-4"
+              >
+                <a href="#" class="image is-48x48">
+                  <img
+                    alt="profil"
+                    src="assets/images/avatar-testimonial.jpg"
+                    class="is-rounded"
+                  />
+                </a>
+                <div
+                  class="is-flex is-flex-direction-column ml-2 is-align-content-space-between"
+                >
+                  <span class="font-semibold has-text-weight-bold">
+                    Kyle Burton
+                  </span>
+                  <span class="is-size-7 is-flex is-align-items-center">
+                    Founder & CEO, Huddle
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <figure class="image">
+              <img src="assets/images/illustration-2.svg" alt="" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section is-medium" style="background: hsl(238, 22%, 44%)">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <h1 class="title has-text-white">Get early access today</h1>
+            <p class="subtitle has-text-white">
+              It only takes a minute to sign up and our free starter tier is
+              extremely generous. If you have any questions, our support team
+              would be happy to help you.
+            </p>
+          </div>
+          <div class="column">
+            <div class="field">
+              <p class="control is-expanded">
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="email@example.com"
+                />
+              </p>
+              <p class="control pt-4">
+                <a class="button is-link"> Get Started For Free </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer" style="background: hsl(243, 87%, 12%)">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <p>Phone: +1-543-123-4567</p>
+            <p>example@fylo.com</p>
+          </div>
+          <div class="column">
+            <ul>
+              <li><a>About Us</a></li>
+              <li>Jobs</li>
+              <li>Press</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+          <div class="column">
+            <ul>
+              <li>Contact Us</li>
+              <li>Terms</li>
+              <li>Privacy</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://www.github.com/ombudev">O'Neal Ombu</a>.
+      </p>
+    </footer>
+  </body>
+</html>

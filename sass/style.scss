@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+// Import Google Font
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
+// Start coding Bulma Variables here
+
+$family-sans-serif: "Raleway", sans-serif;
+
+// Start coding Bulma Variables here
+
+$body-family: "Open Sans", sans-serif;
+
+// Screen Sizes
+//$desktop: 1440px + (2 * $gap);
+
+// Add Custom CSS Here.
+
+.has-background-image {
+  background-image: url("/assets/images/bg-curve-desktop.svg") !important;
+
+  background-position: top !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+// Import only what you need from Bulma
+
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/_all.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/components/_all.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
+@import "../node_modules/bulma/sass/helpers/_all.sass";
+@import "../node_modules/bulma/sass/layout/_all.sass";
